@@ -77,22 +77,11 @@ class App extends Component{
       alert("Deleted");
   
      
-     
-      
-  
-        
-        
-        
-          
         
         return(
   
       
-        
           
-        
-          
-            
               <><h2>Australian Schools</h2>
               <button className="button" onClick={this.Addition}>add</button>
               <button className="button" onClick={this.remove}>delete</button>
@@ -133,31 +122,11 @@ class App extends Component{
   
   
           </table></>
-            
-            
-        
+                                
         )
   
-  
-                      
+                    
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -168,22 +137,10 @@ class App extends Component{
   {
     
     alert("Added");
-
     
-    
-
-      
-      
-      
-        
       
       return(
 
-    
-      
-        
-      
-        
           
             <><h2>Australian Schools</h2>
             <button className="button" onClick={this.Addition}>add</button>
@@ -230,31 +187,9 @@ class App extends Component{
       
       )
       
-
-
                     
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-  
-  
- 
-  
-  
 
 
   if(isLoaded)
@@ -264,14 +199,8 @@ class App extends Component{
     
 
     
-    
-    
-      
-    
     return(
 
-  
-    
       
     
       <div className="App">
@@ -322,24 +251,10 @@ class App extends Component{
         
       </div>
     )
-                  }
+  }
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
+    
 
   else{
     return (
